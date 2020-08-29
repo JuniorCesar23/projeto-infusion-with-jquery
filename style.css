@@ -1,0 +1,399 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* HEADER */
+header {
+    position:fixed;
+    background:white;
+    top:0;
+    width: 100%;
+    padding:0;
+    margin:0;
+    display: flex;
+    z-index: 1;
+}
+header h1{
+    background:rgb(3, 180, 171);
+    color:white;
+    padding:25px;
+    margin:0;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+header #div-menu {
+    width: 10%;
+    padding:20px 0;
+    margin:0 10% 0 30%;
+    border-radius:5px;
+    max-width: 40px;
+}
+header #div-menu p{
+    height: 5px;
+    margin:5px 0;
+    background:black;
+}
+header nav {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:80px;
+    width: 100%;
+    display: none;
+}
+header nav ul {
+    margin:0;
+    padding:0;
+}
+header nav ul li{
+    background:black;
+    width: 100%;
+    display:block;
+    text-align: center;
+    padding:30px 0;
+    border:solid 1px white;
+}
+header nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+
+
+
+/* MAIN */
+main {
+    margin:0;
+    padding:0;
+}
+main #section-header-main {
+    background-image: url(./img/01.jpg);
+    background-position:center;
+    margin:85px 0 0;
+    height: 450px;
+    padding:50px 0 0;
+}
+main #section-header-main h1{
+    background:rgb(3, 180, 171);
+    color:white;
+    width: 80%;
+    margin:0px auto;
+    padding:40px 20px;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+main #section-header-main p{
+    background:black;
+    color: white;
+    margin:20px auto;
+    width: 70%;
+    padding:20px 10px;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 18px;
+}
+main #section-header-main button{
+    margin:40px auto;
+    display: block;
+    font-size: 20px;
+    padding:15px 25px;
+    background:black;
+    color:white;
+    border:solid 1px white;
+    opacity: 0.8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline:none;
+}
+
+
+
+/* SECTION ARTICLES */
+main #section-articles {
+    margin:0;
+    padding:0 20px;
+}
+main #section-articles article {
+    margin:20px 0;
+    padding:0;
+    text-align: center;
+    box-shadow: 1px 1px 3px black;
+}
+main #section-articles article img:first-child{
+    width: 100%;
+}
+main #section-articles article .img-author{
+    position: absolute;
+    display:block;
+    left:35%;
+    right: 35%;
+    padding:0;
+    transform:translateY(-50px);
+}
+main #section-articles article h2{
+    padding:20px;
+}
+main #section-articles article p{
+    padding:0 20px 10px;
+}
+
+
+
+
+/* SECTION TEXTS */
+main #section-texts {
+    background:rgb(231, 228, 228);
+    padding:20px;
+}
+main #section-texts h3{
+    font-weight: normal;
+    font-size: 24px;
+}
+main #section-texts p{
+    opacity: 0.7;
+}
+main #section-texts div button:nth-of-type(1){
+    background:rgb(3, 180, 171);
+    padding:15px 25px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 3px;
+    margin:2px 0;
+}
+main #section-texts div button:nth-of-type(2){
+    background:rgb(14, 12, 12);
+    padding:15px 25px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 3px;
+    margin:2px 0;
+}
+
+
+
+
+/* SECTION 4 */
+main #section-photos {
+    margin:0;
+    padding:0;
+}
+main #section-photos h1{
+    background:rgb(3, 180, 171);
+    color: white;
+    padding: 30px 20px;
+    margin:0;
+    text-transform:uppercase;
+    font-weight:normal;
+}
+main #section-photos img{
+    padding:0;
+    margin:0;
+    width: 100%;
+    display: block;
+}
+
+
+
+/* SECTION 5 */
+main #section-anime-img {
+    background:black;
+    margin:0;
+    padding: 10px 0;
+}
+main #section-anime-img img{
+    display: block;
+    margin:10px auto 0;
+    padding:0;
+    height: 200px;
+}
+main #section-anime-img button{
+    margin:40px auto;
+    display: block;
+    font-size: 20px;
+    padding:15px 25px;
+    background:black;
+    color:white;
+    border:solid 1px white;
+    opacity: 0.8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline:none;
+}
+
+
+/* SECTION 6 */
+main #section-coments {
+    background:rgb(3, 180, 171);
+    color:white;
+    margin:0;
+    padding:20px 40px;
+}
+main #section-coments h2{
+    font-size: 30px;
+    font-weight:normal;
+}
+main #section-coments button{
+    margin:40px auto;
+    display: block;
+    font-size: 20px;
+    padding:15px 25px;
+    background:black;
+    color:white;
+    border:solid 1px white;
+    opacity: 0.8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline:none;
+}
+
+
+
+/* FOOTER */
+footer {
+    background:black;
+    padding:20px;
+    color:white;
+    opacity: 0.9;
+}
+footer h1{
+    text-transform: uppercase;
+}
+footer ul {
+    margin:0;
+    padding:0;
+}
+footer ul li {
+    margin:0;
+    padding:0;
+    display: block;
+}
+footer ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* MEDIA QUERY - MIN 1024PX */
+@media (min-width:1094px){
+    
+
+    /* HEADER */
+    header {
+        margin:0;
+        padding:0;
+    }
+    header #div-menu {
+        display: none;
+    }
+    header h1{
+        width: 30%;
+        text-align: center;
+    }
+    header nav {
+        display: block;
+        position: relative;
+        margin:0 auto;
+        top:0;
+    }
+    header nav ul li{
+        width: 15%;
+        display:inline-block;
+        text-align: center;
+        background:none;
+        margin:0;
+    }
+    header nav ul li a{
+        color:black;
+    }
+    header nav ul li a:hover{
+        color:rgb(3, 180, 171);
+    }
+
+
+    /* MAIN */
+    /* SECTION 1 */
+    main {
+        padding: 0;
+        margin:0;
+    }
+    main #section-header-main {
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 800px;
+        padding:0;
+        margin:0;
+    }
+    main #section-header-main h1{
+        width: 40%;
+        transform:translateY(150px)
+    }
+    main #section-header-main p{
+        width: 30%;
+        transform:translateY(150px)
+    }
+    main #section-header-main button{
+        transform:translateY(150px)
+    }
+
+
+    /* SECTION 2*/
+    main #section-articles {
+        margin:0;
+        padding:0 100px;
+        display: flex;
+        flex-shrink: 1;
+    }
+    main #section-articles article {
+        margin:20px 5px;
+    }
+    main #section-articles article .img-author{
+        position: static;
+        margin:0 auto 0;
+        height: 150px;
+        padding: 0;
+    }
+
+
+
+    /* SECTION 4 */
+    main #section-photos {
+        display: grid;
+        grid-gap: 1;
+    }
+    main #section-photos h1{
+        grid-column: 1 / 7;
+    }
+
+
+    /* SECTION 5 */
+    main #section-anime-img {
+        padding:60px 0;
+    }
+    main #section-anime-img img{
+        height: 100%;
+    }
+
+    /* SECTION 6 */
+    main #section-coments {
+        padding:20px 150px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding:50px 100px;
+    }
+}
